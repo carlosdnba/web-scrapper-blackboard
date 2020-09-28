@@ -1,0 +1,23 @@
+{
+  "name": "bot-blackboard",
+  "version": "1.0.0",
+  "description": "Um bot pra acessar as aulas online",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlosdnba/web-scrapper-iesb.git"
+  },
+  "author": "Carlos Daniel",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "puppeteer": "^5.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
